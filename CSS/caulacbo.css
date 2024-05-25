@@ -88,20 +88,23 @@
 .carousel1-indicators {
   margin-bottom: 0;
 }
+.nutcaulacbo{
+  padding-bottom: -10%;
+}
 .carousel1-item, .carousel1-inner{
   background-color: transparent;
 }
 .nut-1-prev{
-  margin-left: -8.5%;
+  margin-left: -3%;
 }
 .nut-1-next{
   margin-right: 7%;
 }
 .nut-2-prev{
-  margin-left: -5%;
+  margin-left: 2%;
 }
 .nut-2-next{
-  margin-right: -6%;
+  margin-right: -9%;
 }
 #caulacbo_du{
   height: 17vh;
@@ -122,6 +125,7 @@
   }
   
   .carousel1-inner {
+    padding-left: 2%;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -131,7 +135,7 @@
     clear: both;
     content: "";
   }
-  
+
   .carousel1-item {
     position: relative;
     display: none;
@@ -222,7 +226,7 @@
   }
   
   .carousel1-control-prev {
-    left: -5%;
+    left: -4%;
   }
   
   .carousel1-control-next {
@@ -259,7 +263,9 @@
     margin-right: 23%;
     margin-bottom: 1rem;
     margin-left: 8%;
+    padding-left: 15%;
   }
+  
   .carousel1-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
