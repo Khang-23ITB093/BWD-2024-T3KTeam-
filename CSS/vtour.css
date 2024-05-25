@@ -1,0 +1,42 @@
+.vtour{
+    display: inline-flex;
+    height: 100vh !important;
+    background-color: var(--white);
+}
+.vtour_content{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: auto;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--content-gap);
+    padding: 8vh 5.20835vw 8vh 10.41665vw;
+    position: relative;
+    background-color: var(--white);
+    min-width: 50vw;
+}
+.vtour_content .text{
+    row-gap: 2.22vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+    vertical-align: baseline;
+}
+.image360{
+    width: 50%; 
+    height: 100vh;
+    min-width: 50vw;
+}
+.image360 img{
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+}
+.vtour .button{
+    background-color: transparent;
+    border: none;
+}
