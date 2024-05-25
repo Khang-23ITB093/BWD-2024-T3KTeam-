@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .full{
     width: 100%;
     background-image: linear-gradient(0, rgba(142, 142, 142, 0.4),rgba(44, 40, 40, 0.4)), url(https://file1.hutech.edu.vn/file/editor/ttvhnt/274857616_4809691902478736_2244689923761121711_n.jpg) ;
@@ -58,38 +54,26 @@
   display: flex;
   margin: 20px;
 }
-.btn{
-    color: white;
-    font-size: 40px;
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-}
-.btn_left{
-    left:20px;
-}
-.btn_right{
-    right: -10px;
-}
+
+
 .carousel1-inner{
     border-radius: 20px;
 }
-.index_image{
+/* .index_image{
     position: absolute;
     bottom: 10px;
     display: flex;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
-}
-.index_item{
+} */
+/* .index_item{
     border: 1px solid #CCC ;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     margin: auto 10px;
-}
+} */
 .activeCLB{
     background-color: #CCC;
 }
@@ -238,11 +222,11 @@
   }
   
   .carousel1-control-prev {
-    left: 0;
+    left: -5%;
   }
   
   .carousel1-control-next {
-    right: 0;
+    right: 5%;
   }
   
   .carousel1-control-prev-icon,
@@ -272,9 +256,9 @@
     display: flex;
     justify-content: center;
     padding: 0;
-    margin-right: 15%;
+    margin-right: 23%;
     margin-bottom: 1rem;
-    margin-left: 15%;
+    margin-left: 8%;
   }
   .carousel1-indicators [data-bs-target] {
     box-sizing: content-box;
@@ -305,9 +289,9 @@
   
   .carousel1-caption {
     position: absolute;
-    right: 15%;
+    right: 20%;
     bottom: 1.25rem;
-    left: 15%;
+    left: 10%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     color: #fff;
@@ -336,18 +320,3 @@
   [data-bs-theme=dark] .carousel1 .carousel1-caption, [data-bs-theme=dark].carousel1 .carousel1-caption {
     color: #000;
   }
-
-#myIframe {
-    width: 100%;
-    height: 100vh;
-    border: none;
-    overflow: hidden;
-}
-/* Đảm bảo nội dung bên trong iframe không có thanh cuộn */
-#myIframe::-webkit-scrollbar {
-    display: none;
-}
-#myIframe {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}

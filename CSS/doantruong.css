@@ -1,102 +1,92 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    object-fit: cover;
-}
-.tat_ca{
-    border-radius: 5px;
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(0, rgba(0, 21, 255, 0.4),rgba(0, 21, 255, 0.4)), url(https://i.ytimg.com/vi/ofbSI6gWu9o/maxresdefault.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.tren{
-    height: 15%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        object-fit: cover;
+    }
+    .tat_ca{
+        border-radius: 5px;
+        height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(0, rgba(0, 21, 255, 0.4),rgba(0, 21, 255, 0.4)), url(https://i.ytimg.com/vi/ofbSI6gWu9o/maxresdefault.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        overflow: hidden; /* Ngăn cuộn ở .tat_ca */
+    }
+    .tren_doan{
+        height: 15%;
 
-}
-.phude{
-    color: white;
-    font-size: 120%;
-    text-align: center;
-    font-weight: 500;
-}
-#anh_doan{
-    border-radius: 5px;
-    width: 100%;
-    height: 100%;
-}
-.dang_chu_y{
-    color: white;
-    font-size: 3vh;
-    padding-left: 6%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-weight: 500;
-}
-.carousel-inner{
-    padding-left: 5%;
-}
-.carousel-item img{
-    border-radius: 5px;
-}
-.carousel-control-next{
-    margin-right: 5%;
-}
-
-.cachoatdongkhac{
-    color: white;
-    font-size: 3vh;
-    padding-top: 1%;
-    /* padding-left: 6%; */
-    font-weight: 500;
-}
-.tren_hoatdongkhac a{
-    color: white;
-    text-decoration: none;
-    font-size: medium;
-    font-weight: 500;
-}
-.carousel-caption{
-    left: 5%;
-    right: 15%;
-}
-.noidung_giuatrai{
-    color: white;
-    font-size: 3vh;
-    padding-left: 7%;
-    padding-bottom: 2%;
-    font-weight: 500;
-}
-.row{
-    margin: 0;
-}
-.nutnext{
-    right: -14%;
-}
-.nutprev{
-    left: 0;
-}
-.ds1 img, .ds2 img, .ds3 img, .ds4 img,.ds5 img, .ds6 img, .ds7 img{
-    border-radius: 20%;
-}
-.giua_trai{
-    margin-left: 3%;
-    margin-top: 1%;
-}
-.tinhnguyen_lietsi{
-    color: white;
-    font-size: 3vh;
-    font-weight: 500;
-}
-.giua_duoi_phai{
-    padding-top: 0%;
-    padding-left: 18%;
-}
-.giua_duoi_trai{
-    padding-left: 2%;
-}
-.thanhvientieubieu{
-    padding-left: 5%;
-}
+    }
+    .phude{
+        color: white;
+        font-size: 120%;
+        text-align: center;
+        font-weight: 500;
+    }
+    #anh_doan{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .dang_chu_y{
+        color: white;
+        font-size: 3vh;
+        padding-left: 6%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-weight: 500;
+    }
+    
+    .cachoatdongkhac{
+        color: white;
+        font-size: 3vh;
+        padding-top: 1%;
+        /* padding-left: 6%; */
+        font-weight: 500;
+    }
+    .tren_hoatdongkhac a{
+        color: white;
+        text-decoration: none;
+        font-size: medium;
+        font-weight: 500;
+    }
+    
+    .noidung_giuatrai{
+        color: white;
+        font-size: 3vh;
+        padding-left: 7%;
+        padding-bottom: 2%;
+        font-weight: 500;
+    }
+    
+    .nutnext{
+        right: -14%;
+    }
+    .nutprev{
+        left: -9%;
+    }
+    .ds1 img, .ds2 img, .ds3 img, .ds4 img,.ds5 img, .ds6 img, .ds7 img{
+        border-radius: 20%;
+    }
+    .giua_trai_doan{
+        margin-left: 3%;
+        margin-top: 1%;
+    }
+    .tinhnguyen_lietsi{
+        color: white;
+        font-size: 3vh;
+        font-weight: 500;
+    }
+    .giua_duoi_phai{
+        padding-top: 0%;
+        padding-left: 18%;
+    }
+    .giua_duoi_trai{
+        padding-left: 5%;
+    }
+    .thanhvientieubieu{
+        padding-left: 5%;
+    }
+    .bo_anh_doan img{
+        border-radius: 5%;
+    }
