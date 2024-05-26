@@ -38,7 +38,7 @@
     margin-left: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
-    text-align: center;
+    text-align: left;
 }
 .text_clb{
     color:white;
@@ -53,6 +53,7 @@
 .anh{
   display: flex;
   margin: 20px;
+  font-weight: 500;
 }
 
 
@@ -79,7 +80,7 @@
 }
 .noi_dung{
     color: white;
-    font-size: 22px;
+    font-size: 25px;
     margin-left: 5%;
     padding-top: 3%;
     padding-bottom: 3%;

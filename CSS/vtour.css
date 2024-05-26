@@ -1,3 +1,18 @@
+#fullpage{
+    margin: 0;
+}
+.fp-overflow{
+    width: 100%;
+    height: 100%;
+}
+#panorama {
+    overflow: hidden;
+    position: fixed;
+    cursor: default;
+    width: 50%;
+    height: 100%;
+    pointer-events: none;
+}
 .vtour{
     display: inline-flex;
     height: 100vh !important;
@@ -25,18 +40,39 @@
     align-self: stretch;
     flex: 0 0 auto;
     vertical-align: baseline;
+    font-size: 20px;
 }
 .image360{
-    width: 50%; 
-    height: 100vh;
-    min-width: 50vw;
-}
-.image360 img{
-    width: 100%;
-    object-fit: cover;
-    height: 100vh;
+    width: 100%; 
+    height: 100%;
+    min-width: 50%;
 }
 .vtour .button{
     background-color: transparent;
     border: none;
+}
+@media only screen and (max-width: 900px) {
+    .vtour{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .vtour_content{
+        width: 100%;
+        height: 50%;
+        padding: 5vh 5.20835vw 8vh 5.20835vw;
+        justify-content: left;
+    }
+    .image360{
+        width: 100%;
+        height: 50%;
+        min-width: 100%;
+    }
+    #panorama{
+        width: 100%;
+        height: 50%;
+    }
+}
+.fp-watermark{
+    display: none;
 }

@@ -6,16 +6,29 @@
     }
     .tat_ca{
         border-radius: 5px;
-        height: 100vh;
+        height: 100%;
         width: 100%;
         background-image: linear-gradient(0, rgba(0, 21, 255, 0.4),rgba(0, 21, 255, 0.4)), url(https://i.ytimg.com/vi/ofbSI6gWu9o/maxresdefault.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
-        overflow: hidden; /* Ngăn cuộn ở .tat_ca */
+        display: flex;
+        flex-direction: column;
+        
     }
     .tren_doan{
         height: 15%;
-
+        width: 100%;
+        flex-grow: 1;
+    }
+    .giua_doan{
+        height: 85%;
+        width: 100%;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .giua_tren .giua_duoi{
+        flex-grow: 1;
     }
     .phude{
         color: white;
@@ -92,4 +105,7 @@
     }
     .nutduoidoan{
         padding-left: 2%;
+    }
+    .tat_ca .row{
+        margin-right: 0;
     }

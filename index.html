@@ -9,57 +9,223 @@
     <link rel="apple-touch-icon" href="https://vku.udn.vn/wp-content/uploads/2023/06/logo_intro.svg">
     <link rel="stylesheet" href="./Library/bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/fullpage.min.css">
+    <link rel="stylesheet" href="./Library/pannellum-2.5.6/src/css/pannellum.css">
     <link rel="stylesheet" href="./CSS/career.css">
     <link rel="stylesheet" href="./CSS/vtour.css">
     <link rel="stylesheet" href="./CSS/caulacbo.css">
     <link rel="stylesheet" href="./CSS/doantruong.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/font.css">
+    <!-- triều -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>VKU</title>
 </head>
 
 <body>
-    <!-- Bắt đầu phần giới thiệu -->
-    <!-- <div id="phan_tren">
-        <img src="./Image/images/VKU_logo.jpg" alt="">
-        <div class="menubar">
-            <ul>
-                <a href="#">
-                    <li>Giới thiệu</li>
-                </a>
-                <a href="#">
-                    <li>VKU</li>
-                </a>
-                <a href="#">
-                    <li>Hoạt động học thuật</li>
-                </a>
-                <a href="#">
-                    <li>Định hướng nghề nghiệp</li>
-                </a>
-                <a href="#">
-                    <li>Hoạt động đoàn</li>
-                </a>
-                <a href="#">
-                    <li>Câu lạc bộ</li>
-                </a>
-                <a href="#">
-                    <li>Cơ sở vật chất</li>
-                </a>
-            </ul>
-        </div>
-    </div> -->
-    <!-- Kết thúc phần giới thiệu -->
-
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
     <!-- Bắt đầu phần thân -->
     <div id="fullpage">
-        
-        <div class="section">
-            <div class="vtour">
+            <!-- Triều -->
+            <div class="section">
+                <div class="hoat_dong_ngoai_khoa">
+                    <div class="top">
+                        <span class="text_white roboto-black h1">Hoạt Động Ngoại Khóa</span>
+                    </div>
+                    
+                    <div class="center">
+                        <div class="center_left">   
+                            <div class="introduce">
+                                <div class="header_name">
+                                    <span style="font-size: 30px; color: white;" class="t_1 roboto-medium">Trải nghiệm VKU Campus Tour 2024:Cơ hội rộng mở - Định hướng tương lai</span>
+                                </div>
+                
+                                <div class="describe">
+                                    <span style="color: white; font-size: 20px;" class="describe_text">Trường Đại học Công nghệ Thông tin và Truyền thông Việt – Hàn (VKU), ĐHĐN đã tổ chức và đón gần 2.000 học sinh các trường Trung học phổ thông (THPT) trên địa bàn thành phố Đà Nẵng và các tỉnh Quảng Nam, Quảng Ngãi, Thừa Thiên Huế về tham gia Trải nghiệm VKU Campus tour 2024.</span>
+                                </div>
+                                
+                                <div class="detail">
+                                    <span class="roboto-black" style="color: white; font-size: x-large;">CHI TIẾT</span>
+                                </div>
+            
+                            </div>
+                        </div>
+                        <div class="center_right">
+                            <div class="carousel slide sls_2" id="carouselDemo"  style="height: 65%;">
+                                <div class="carousel-inner" style="height: 100%;">
+                                    <div class="carousel-item cnt_img active" style="background-color: black; height: 100%;" data-bs-interval="false">
+                                        <div class="w-100 bgr_image">
+                                            <img src="./Image/HoatDongNgoaiKhoa/Screenshot 2024-05-23 175514.png">
+                                            <img src="./Image/HoatDongNgoaiKhoa/VKU-21-1536x1024.jpg">
+                                            <img src="./Image/HoatDongNgoaiKhoa/VKU-54-1536x1024.jpg">
+                                        </div>
+                                    </div>
+            
+                                    <div class="carousel-item" style="background-color: black; height: 100%;" data-bs-interval="false">
+                                        <div class="w-100 bgr_image">   
+                                            <img src="./Image/DaiHoiTheThao/VKU-6-4-1536x1024.jpg">
+                                            <img src="./Image/DaiHoiTheThao/VKU-14-4-1536x864.jpg">
+                                            <img src="./Image/DaiHoiTheThao/VKU-15-3-1536x864.jpg" >
+                                        </div>
+                                    </div>
+                            
+                                    <div class="carousel-item " style="background-color: black; height: 100%;" data-bs-interval="false">
+                                        <div class="w-100 bgr_image">
+                                            <img src="./Image/HoiTraiVku/4-1-1536x1024.jpg">
+                                            <img src="./Image/HoiTraiVku/5-1-1536x1024.jpg">
+                                            <img src="./Image/HoiTraiVku/433443891_414859737960234_49265940967067970_n-1-1536x984.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="div_bottom">
+                                <div class="buttons">
+                                    <div class="button btn_left_2"
+                                        data-bs-target="#carouselDemo" 
+                                        data-bs-slide="prev">
+                                        <i class='bx bx-chevron-left'></i>
+                                    </div>
+                
+                                    <div class="button btn_right_2"
+                                        data-bs-target="#carouselDemo"
+                                        data-bs-slide="next">
+                                        <i class='bx bx-chevron-right'></i>
+                                    </div>
+                                </div>
+                                
+                                <div class="indexs">
+                                    <div class="index index_0 active_index"></div>
+                                    <div class="index index_1"></div>
+                                    <div class="index index_2"></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>    
+            </div>
+    
+            <div class="section">
+                <div class="container">
+                    <div class="information">
+                        <div class="element">
+                            <span style="font-size: 30px; font-weight: 700; margin-bottom: 10%;">Cơ Sở Vật Chất</span>
+                            <span>Khuôn viên trường rộng lớn và xanh mát, cung cấp không gian lý tưởng cho sinh viên thư giãn và học tập. Sân thể dục đa chức năng với các tiện ích hiện đại giúp sinh viên duy trì sức khỏe và rèn luyện thể chất. Kí túc xá tiện nghi và thoải mái là nơi sinh viên có thể tận hưởng không gian riêng tư sau những ngày học tập căng thẳng.</span>
+                        </div>
+                    </div>
+                    <div class="carousel slide display_img" id="carouselDemo2" data-bs-wrap="true" data-bs-ride="carousel">
+                        <div class="carousel-inner" style="background-color: white;">
+                            <div class="carousel-item active contain_img">
+                                <img src="./Image/Img_Csvc/439841442_431398269637600_8437680759529417556_n.jpg" class="w-100">
+                            </div>
+                    
+                            <div class="carousel-item contain_img" data-bs-interval="2000">
+                                <img src="./Image/Img_Csvc/439972988_431397836304310_406204207461807250_n.jpg" class="w-100">
+                            </div>
+                    
+                            <div class="carousel-item contain_img">
+                                <img src="./Image/Img_Csvc/440156855_431397026304391_794444663421341013_n.jpg" class="w-100">
+                            </div>
+            
+                            <div class="carousel-item contain_img">
+                                <img src="./Image/Img_Csvc/440143961_431397146304379_2813094414545993951_n.jpg" class="w-100">
+                            </div>
+                    
+                        </div>
+            
+                        <div class="control_bottom">
+                            <div class="btns">
+                                <div class="btn_left btn"
+                                    type="button"
+                                    data-bs-target="#carouselDemo2" 
+                                    data-bs-slide="prev">
+                                    <i class='bx bx-chevron-left'></i></box-icon>
+                                </div>
+                                <div class="btn_right btn"
+                                    data-bs-target="#carouselDemo2"
+                                    data-bs-slide="next">
+                                    <i class='bx bx-chevron-right'></i></box-icon>
+                                </div>
+                            </div>
+                            
+                            <div class="carousel-indicators index_images">
+                                <div class="div_index active"
+                                    data-bs-target="#carouselDemo2"
+                                    data-bs-slide-to="0"></div>
+                        
+                                <div class="div_index"
+                                    data-bs-target="#carouselDemo2"
+                                    data-bs-slide-to="1"></div>
+                        
+                                <div class="div_index"
+                                    data-bs-target="#carouselDemo2"
+                                    data-bs-slide-to="2"></div>
+            
+                                <div class="div_index"
+                                    data-bs-target="#carouselDemo2"
+                                    data-bs-slide-to="3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="section">
+                <div class="classandlearningfacilities">
+                    <div class="header_learningfacilities">
+                        <span style="font-size: 30px; text-align: center;">Phòng Học và Cơ Sở Học Tập</span>
+                        <div style="width: 65%; height: 100%; display: flex; flex-direction: column; margin-top: 15px;">
+                            <span style="text-align: center;">Cơ sở vật chất của trường là nền tảng vững chắc để sinh viên phát triển và học tập. Với các phòng học hiện đại, trang</span>
+                            <span style="text-align: center;">thiết bị đầy đủ và không gian mở rộng, trường tạo điều kiện thuận lợi cho sự nghiên cứu và trao đổi kiến thức.</span>
+                        </div>
+                    </div>
+            
+                    <div style="width: 100%; height: 100%; display: flex; justify-content: center; margin-top: 7%; margin-bottom: 10%;">
+                        <div class="img_wall">
+                            <div class="img_1">
+                                <img src="./Image/Img_Csvc/117122375_183441819882457_4491584471902537657_n.jpg" alt="">
+                            </div>
+                            <div class="img_2">
+                                <img src="./Image/Img_Csvc/347001453_735536015034459_6952221256082609362_n.jpg" alt="">
+                            </div>
+                            <div class="img_3">
+                                <img src="./Image/Img_Csvc/428354915_7579408028844136_1663092316619947842_n.jpg" alt="">
+                            </div>
+                            <div class="img_4">
+                                <img src="./Image/Img_Csvc/436252981_7579408398844099_4228605273310285641_n.jpg" alt="">
+                            </div>
+                            <div class="img_5">
+                                <img src="./Image/Img_Csvc/436252593_7579408578844081_3436025407812367700_n.jpg" alt="">
+                            </div>
+                            <div class="img_6">
+                                <img src="./Image/Img_Csvc/436534370_7579408245510781_7345423432035813135_n.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+    
+
+            
+            <!-- Khang -->
+            <div class="section">
+                <div class="vtour">
 
                 <div class="vtour_content">
                     <div class="text">
-                        <h1>VKU</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Recusandae libero, vero aspernatur suscipit ut facere nobis reiciendis iusto tenetur corporis, 
-                            corrupti tempora enim voluptatum architecto dolore dolores labore voluptatem cumque!</p>
+                        <div class="h1 roboto-black">Virtual Tour 360&deg;</div>
+                        <p><span class="roboto-medium">Khám phá VKU một cách sống động và trực quan!</span> <br>
+                            Hãy trải nghiệm hành trình thú vị qua các khu vực quan trọng của trường, từ phòng học hiện đại đến thư viện, phòng thí nghiệm và khuôn viên xanh mà không cần phải đến trực tiếp. 
+                            Với công nghệ 360°, bạn có thể tự do di chuyển, xoay màn hình và tương tác với mọi góc cạnh của VKU. 
+                            Đừng bỏ lỡ cơ hội tìm hiểu chi tiết về cơ sở vật chất và không gian học tập tại VKU để chuẩn bị tốt hơn cho hành trình học tập của mình. 
+                        </p>
                     </div>
 
                     <button class="button">
@@ -69,18 +235,17 @@
                     </button>
                 </div>
                 <div class="image360">
-                    <div id="bannerGroup1" class="campus-carousel-item"><img id="banner-item-1-1" src="https://university.fpt.edu.vn/wp-content/themes/dhfpt/assets/img/slide2/1/1.jpg"></div>
-
+                    <div id="panorama"></div>
                 </div>
 
             </div>
         </div>
         <!-- Học thuật -->
         <div class="section hoc_thuat fp-auto-height-responsive">
-            <h1 class="section-title">HOẠT ĐỘNG HỌC THUẬT</h1>
+            <h1 class="section-title roboto-black">HOẠT ĐỘNG HỌC THUẬT</h1>
             <div class="fp-slide s1">
                 <div class="section-content">
-                    <p>Bên cạnh đó, VKU còn cung cấp cho sinh viên vkuer cũng như học sinh trên cả nước một sân chơi học
+                    <p style="font-size: 20px;">Bên cạnh đó, VKU còn cung cấp cho sinh viên vkuer cũng như học sinh trên cả nước một sân chơi học
                         thuật vô cùng đa dạng, phong phú. Nơi mọi người có thể khám phá ,
                         học hỏi và giao lưu với nhau về chủ đề học thuật phong phú.</p>
                 </div>
@@ -211,7 +376,7 @@
         <!-- nghe nghiep -->
 
         <div class="section nghe_nghiep fp-auto-height-responsive">
-            <h1 class="section-title">CƠ HỘI NGHỀ NGHIỆP</h1>
+            <h1 class="section-title roboto-black">CƠ HỘI NGHỀ NGHIỆP</h1>
             <div class="fp-slide s1">
                 <div class="section-content">
                     <p>
@@ -222,7 +387,7 @@
                         tự tin hơn trong việc tìm kiếm, giữ chân được trong sự nghiệp của mình.
                     </p>
                 </div>
-                <div class="container-fluid">
+                <div class="container-fluid" style="padding: 8vh;">
                     <div id="carouselExampleSlidesOnly" class="carousel image" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -399,13 +564,13 @@
         <div class="section">
             <div class="full">
                 <div class="tren">
-                    <div class="baner">Câu Lạc Bộ - Đội -Nhóm</div>
+                    <div class="baner roboto-black">Câu Lạc Bộ - Đội -Nhóm</div>
                 </div>
                 <div class="giua row">
                     <div class="giua_trai col-lg-5">
                         <!-- show -->
-                        <div class="chao_mung ">Khám phá các câu lạc bộ - đội - nhóm</div>
-                        <div id="demo1" class="carousel1 slide" data-bs-ride="carousel1">
+                        <div class="chao_mung roboto-bold">Khám phá các câu lạc bộ - đội - nhóm</div>
+                        <div id="demo1" class="carousel1 slide" data-bs-ride="carousel1" data-bs-interval="2000">
         
                           <!-- Indicators/dots -->
                           <div class="carousel1-indicators">
@@ -532,8 +697,8 @@
                   </div>
         
                     <div class="giua_phai col-lg-7">
-                        <div class="noi_dung">Các hoạt động của các câu lạc bộ - đội - nhóm</div>
-                        <div id="demo2" class="carousel1 slide" data-bs-ride="carousel1">
+                        <div class="noi_dung roboto-bold">Các hoạt động của các câu lạc bộ - đội - nhóm</div>
+                        <div id="demo2" class="carousel1 slide" data-bs-ride="carousel1" data-bs-interval="2000">
         
                             <!-- Indicators/dots -->
                             <div class="carousel1-indicators nutcaulacbo">
@@ -771,15 +936,19 @@
                             <div class="cachoatdongkhac">Các sự kiện:</div>
                             <div class="tren_hoatdongkhac row">
                                 <div class="traitren_hoatdongkhac col-lg-6">
-                                    <a href="https://www.facebook.com/photo/?fbid=122095070294337721&set=a.122094284234337721"><img style="width: 100%; border-radius: 10px;" src="./Image/ANH_DOAN/hoạt động 16.jpg" alt=""></a>
-                                    <a href="https://www.facebook.com/photo/?fbid=122095070294337721&set=a.122094284234337721" class="noidung_traitren">VKU Job Fair 2024 - Cơ hội “VÀNG” để bạn kết nối với nhiều Doanh nghiệp hàng đầu  trong lĩnh vực Công nghệ thông tin, Truyền thông và Kinh tế số...</a>
+                                    <div>
+                                        <a href="https://www.facebook.com/photo/?fbid=122095070294337721&set=a.122094284234337721"><img style="width: 100%; border-radius: 10px;" src="./Image/ANH_DOAN/hoạt động 16.jpg" alt=""></a>
+                                        <a href="https://www.facebook.com/photo/?fbid=122095070294337721&set=a.122094284234337721" class="noidung_traitren">VKU Job Fair 2024 - Cơ hội “VÀNG” để bạn kết nối với nhiều Doanh nghiệp hàng đầu  trong lĩnh vực Công nghệ thông tin, Truyền thông và Kinh tế số...</a>
+                                    </div>
                                 </div>
                                 <div class="phaitren_hoatdongkhac col-lg-6">
-                                    <a href="https://academy.nlt-group.com/nlt-academy-trao-hoc-bong-sinh-vien-da-nang/?fbclid=IwZXh0bgNhZW0CMTAAAR3kQ35l80-6E6Dwl0xom8FklPFWE6IEAZOnvZUj4pHL7zZzb4vuvACL6-I_aem_ZmFrZWR1bW15MTZieXRlcw"><img style="width: 100%; border-radius: 10px;" src="./Image/ANH_DOAN/hoat dong 17.jpg" alt=""></a>
-                                    <a href="https://academy.nlt-group.com/nlt-academy-trao-hoc-bong-sinh-vien-da-nang/?fbclid=IwZXh0bgNhZW0CMTAAAR3kQ35l80-6E6Dwl0xom8FklPFWE6IEAZOnvZUj4pHL7zZzb4vuvACL6-I_aem_ZmFrZWR1bW15MTZieXRlcw" class="noidung_traitren">Nhanh tay đăng ký: Cơ hội có 🔥1-0-2🔥 “Rinh” ngay học bổng tại Talkshow “Chinh phục lộ trình trở thành Kỹ thuật viên Chuyển đổi số thực chiến 4.0”...</a>
+                                    <div>
+                                        <a href="https://academy.nlt-group.com/nlt-academy-trao-hoc-bong-sinh-vien-da-nang/?fbclid=IwZXh0bgNhZW0CMTAAAR3kQ35l80-6E6Dwl0xom8FklPFWE6IEAZOnvZUj4pHL7zZzb4vuvACL6-I_aem_ZmFrZWR1bW15MTZieXRlcw"><img style="width: 100%; border-radius: 10px;" src="./Image/ANH_DOAN/hoat dong 17.jpg" alt=""></a>
+                                        <a href="https://academy.nlt-group.com/nlt-academy-trao-hoc-bong-sinh-vien-da-nang/?fbclid=IwZXh0bgNhZW0CMTAAAR3kQ35l80-6E6Dwl0xom8FklPFWE6IEAZOnvZUj4pHL7zZzb4vuvACL6-I_aem_ZmFrZWR1bW15MTZieXRlcw" class="noidung_traitren">Nhanh tay đăng ký: Cơ hội có 🔥1-0-2🔥 “Rinh” ngay học bổng tại Talkshow “Chinh phục lộ trình trở thành Kỹ thuật viên Chuyển đổi số thực chiến 4.0”...</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div style="color: white; font-size: 110%; font-weight: 400; margin-left: 20%; margin-top: 4%;">Giáo dục, định hướng tư tưởng; Đại diện cho quyền và lợi ích của đoàn viên thanh niên <a style="color: white; text-decoration: none; font-size: small; font-style: italic;" href="https://www.facebook.com/tuoitrevku">(Tìm hiểu thêm về đoàn trường)</a></div>
+                            <div style="color: white; font-size: 110%; font-weight: 400; margin-top: 4%;">Giáo dục, định hướng tư tưởng; Đại diện cho quyền và lợi ích của đoàn viên thanh niên <a style="color: white; text-decoration: none; font-size: small; font-style: italic;" href="https://www.facebook.com/tuoitrevku">(Tìm hiểu thêm về đoàn trường)</a></div>
                         </div>
                     </div>
         
@@ -920,7 +1089,25 @@
     <script src="./Library/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/fullpage.js"></script>
     <script src="./JS/caulacbo.js"></script>
-    
+    <script src="./Library/pannellum-2.5.6/src/js/libpannellum.js"></script>
+    <script src="./Library/pannellum-2.5.6/src/js/pannellum.js"></script>
+    <script src="./JS/index.js"></script>
+    <script src="./Library/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script>
+        pannellum.viewer('panorama', {
+            "type": "equirectangular",
+            "panorama": "./Image/library.jpg",
+            "autoLoad": true,
+            "autoRotate": 5,
+            "hfov": 65,
+            "controls": false,
+            "mouseZoom ": false,
+            "keyboardZoom": false,
+            "draggable": false,
+            "showControls": false,
+            "disableKeyboardCtrl": true
+        });
+    </script>
     <script>
 
         new fullpage('#fullpage', {
