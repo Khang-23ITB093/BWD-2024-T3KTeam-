@@ -96,6 +96,7 @@
     background-image: url('../images/Logo_VKU2.jpg');
     background-size: 70%;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .slide .card:hover{
@@ -171,4 +172,10 @@
 
 .carousel-item {
     transition: opacity 0.5s ease-in-out;
+}
+
+.nghe_nghiep .main1,
+.hoc_thuat .main1{
+    /* overflow: hidden; */
+    /* height: 400px; */
 }

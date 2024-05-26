@@ -76,3 +76,10 @@
 .fp-watermark{
     display: none;
 }
+.fp-nav ul li a span {
+    background: white; /* Màu nền mặc định */
+}
+
+.fp-nav.black-nav ul li a span {
+    background: black; /* Màu nền cho các section có nền đen */
+}

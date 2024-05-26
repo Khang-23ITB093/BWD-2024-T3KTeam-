@@ -1,6 +1,5 @@
-/* General Styles */
-span {
-    font-family: Arial, sans-serif;
+span{
+    font-family: Arial, sans-serif ; 
 }
 
 .text_white {
@@ -23,11 +22,11 @@ span {
     background-color: black;
 }
 
-.contain_img {
+.contain_img{
     background-color: white;
 }
 
-.contain_img img {
+.contain_img img{
     width: 100%;
     height: 100%;
     border-radius: 15px;
@@ -39,29 +38,33 @@ span {
     grid-template-columns: repeat(12, 1fr);
     align-items: center;
     justify-content: center;
+    align-items: center;
     position: relative;
-    margin-top: 5%;
+    top: 30%;
 }
 
 .information {
     width: 100%;
-    background-color: white;
+    height: 100%;
+    background-color: white; 
     display: flex;
     justify-content: center;
     grid-column: 1 / 6;
-    padding: 2%; /* Adjust padding as needed */
-    box-sizing: border-box;
+
 }
 
 .element {
-    width: 80%;
+    margin-top: 20%;
+    width: 80%; 
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto; /* Center the element */
+    
 }
 
 .display_img {
+    height: auto;
     width: 100%;
     grid-column: 6 / 13;
     display: flex;
@@ -71,18 +74,21 @@ span {
 }
 
 .slide_show {
-    width: 100%;
+    width: auto;
+    height: 60%;
     overflow: hidden;
-}
+}  
 
 .list_image {
     width: 100%;
+    height: 100%;
     display: flex;
     transition: 0.5s;
 }
 
 .control_bottom {
     width: 100%;
+    height: 15%;
     display: flex;
     align-items: center;
     margin-top: 3%;
@@ -101,6 +107,7 @@ span {
 }
 
 .btns {
+    height: auto;
     display: flex;
     gap: 15%;
     margin-left: 0;
@@ -110,28 +117,37 @@ span {
     color: white;
 }
 
-.btn_left,
+.btn_left {
+    color: #999;
+}
+
 .btn_right {
     color: #999;
 }
 
 .index_images {
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .index_item {
-    border: 2px solid #999;
+    border: 2px solid #999; 
     width: 100%;
+    height: 100%;
     border-radius: 50%;
     display: flex;
 }
 
-/* Responsive Styles */
+.active {
+}
+
+
 @media (max-width: 770px) {
     .container {
+        height: auto;
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(12, 1fr);
@@ -140,20 +156,20 @@ span {
     .information {
         grid-row: 1 / 2;
         grid-column: 1 / 13;
-        padding: 10px; /* Adjust padding as needed */
     }
 
     .display_img {
         grid-row: 2 / 3;
         grid-column: 1 / 13;
-        padding: 10px; /* Adjust padding as needed */
     }
 }
 
-/* Class and Learning Facilities */
+/* -------------------------- */
+
 .classandlearningfacilities {
     background-color: #dcdcdc;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,6 +178,7 @@ span {
 .header_learningfacilities {
     margin-top: 5%;
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,10 +187,10 @@ span {
 
 .img_wall {
     width: 80%;
+    height: 70%;
     display: grid;
     grid-template-columns: repeat(13, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 2%; /* Adjust gap as needed */
 }
 
 .img_wall div {
@@ -182,14 +199,17 @@ span {
 
 .img_1 {
     grid-column: 2 / 6;
+    grid-row: 1 / 2;
 }
 
 .img_2 {
     grid-column: 6 / 10;
+    grid-row: 1 / 2;
 }
 
 .img_3 {
     grid-column: 10 / 14;
+    grid-row: 1 / 2;
 }
 
 .img_4 {
@@ -215,26 +235,51 @@ span {
     border-radius: 10px;
 }
 
-@media (max-width: 990px) {
+
+@media (max-width : 500px){
     .img_wall {
         width: 100%;
+        height: 70%;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 1fr);
     }
 
-    .img_1,
-    .img_2,
-    .img_3,
-    .img_4,
-    .img_5,
+    .img_1 {
+        grid-column: 1/ 2;
+        grid-row: 1 / 2;
+    }
+    
+    .img_2 {
+        grid-column: 1/ 2;
+        grid-row: 2 / 3;
+    }
+    
+    .img_3 {
+        grid-column: 1/ 2;
+        grid-row: 3 / 4;
+    }
+    
+    .img_4 {
+        grid-column: 1/ 2;
+        grid-row: 4 / 5;
+    }
+    
+    .img_5 {
+        grid-column: 1/ 2;
+        grid-row: 5 / 6;
+    }
+    
     .img_6 {
-        grid-column: 1 / 2;
+        grid-column: 1/ 2;
+        grid-row: 6 / 7;
     }
 }
 
-/* Extracurricular Activities */
+/* Hoạt Động Ngoại Khóa */
+
 .hoat_dong_ngoai_khoa {
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -243,44 +288,49 @@ span {
 
 .top {
     width: 100%;
+    height: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    margin-bottom: 0%;
+    margin-top: 0%;
 }
 
 .center {
     width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
 
 .center_left {
     width: 100%;
-    grid-column: 1 / 6;
+    height: 100%;
+    grid-column: 1 / 6 ;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+
 .center_right {
     width: 100%;
-    grid-column: 6 / 13;
+    height: 100%;
+    grid-column: 6 / 13 ;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 
 .carousel-indicators img {
     width: 70px;
     display: block;
 }
-
-.carousel-indicators button {
-    width: max-content !important;
+.carousel-indicators button{
+    width: max-content!important;
 }
-
-.carousel-indicators {
+.carousel-indicators{
     position: unset;
 }
 
@@ -291,12 +341,12 @@ span {
 }
 
 .header_name {
-    width: 100%;
+    width: 100%; 
     margin-bottom: 5%;
 }
 
 .describe {
-    width: 80%;
+    width: 80%; 
 }
 
 .introduce {
@@ -307,8 +357,8 @@ span {
     width: 30%;
     height: 5vh;
     background-color: black;
-    border: 1px solid white;
-    border-radius: 15px;
+    border: 1px solid white ;
+    border-radius: 15px; 
     margin-top: 20%;
     cursor: pointer;
     display: flex;
@@ -322,7 +372,13 @@ span {
     height: 100%;
 }
 
-.bgr_image {
+.img_item {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.bgr_image {    
     height: 100%;
     display: flex;
     gap: 2%;
@@ -335,20 +391,20 @@ span {
 }
 
 .buttons {
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    justify-content: center; 
     width: 20%;
     gap: 15%;
     margin-left: 3%;
 }
 
 .button {
-    font-size: 30px;
-    border-radius: 40px;
-    border: 1px solid white;
+    font-size: 30px; 
+    border-radius: 40px; 
+    border: 1px solid white; 
     padding: 2%;
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    justify-content: center; 
     align-items: center;
     cursor: pointer;
 }
@@ -380,15 +436,41 @@ span {
     transition: background-color 0.5s;
 }
 
-.active_index {
+.active_index{
     background-color: blue;
     transform: scaleX(1.5);
     transition: transform 0.5s;
 }
 
-@media (max-width: 991px) {
-    .hoat_dong_ngoai_khoa {
-        height: 100%;
+.div_index {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+}
+
+.div_index.active {
+    background-color: black;
+}
+
+.contain_img{
+    background-color: white;
+}
+
+.contain_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.img_item {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width : 500px){
+    .hoat_dong_ngoai_khoa{
+        height: auto;
     }
 
     .center {
@@ -396,11 +478,11 @@ span {
         flex-direction: column;
     }
 
-    .center_left,
-    .center_right {
+    .center_left {
         grid-column: 1 / 2;
+        grid-row: 1 / 6;
     }
-
+    
     .introduce {
         display: flex;
         flex-direction: column;
@@ -431,4 +513,13 @@ span {
         margin-top: 10px;
         margin-bottom: 30px;
     }
+
+    .center_right {
+        grid-column: 1 / 2;
+        grid-row: 6 / 11;
+    }
+
+    
 }
+
+
