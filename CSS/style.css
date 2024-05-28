@@ -144,8 +144,8 @@ span{
 .active {
 }
 
-
-@media (max-width: 770px) {
+/* cơ sở vật chất */
+@media (max-width: 990px) {
     .container {
         height: auto;
         display: grid;
@@ -235,8 +235,8 @@ span{
     border-radius: 10px;
 }
 
-
-@media (max-width : 500px){
+/* phòng học */
+@media (max-width : 980px){
     .img_wall {
         width: 100%;
         height: 70%;
@@ -468,7 +468,7 @@ span{
     border-radius: 20px;
 }
 
-@media (max-width : 500px){
+@media (max-width : 1000px){
     .hoat_dong_ngoai_khoa{
         height: auto;
     }
